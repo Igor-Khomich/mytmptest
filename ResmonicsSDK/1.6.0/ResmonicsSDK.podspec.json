@@ -1,0 +1,27 @@
+{
+  "name": "ResGuardIosSDK",
+  "version": "1.6.0",
+  "summary": "Rsmonics cough dtection SDK",
+  "description": "Rsmonics cough dtection SDK",
+  "homepage": "https://www.resmonics.ai/",
+  "license": {
+    "type": "Copyright",
+    "text": ""
+  },
+  "authors": "Resmonics",
+  "source": {
+    "http": "https://www.dropbox.com/s/ry1l799tbvis0bs/ResGuardIosSDK.xcframework.zip?dl=0"
+  },
+  "cocoapods_version": ">= 1.10.0",
+  "swift_versions": "5.3",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "TensorFlowLiteSwift": [
+      "~> 2.6.0"
+    ]
+  },
+  "default_subspecs": "AdIdSupport",
+  "swift_version": "5.3"
+}
