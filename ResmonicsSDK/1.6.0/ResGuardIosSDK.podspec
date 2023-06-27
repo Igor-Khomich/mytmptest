@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'TensorFlowLiteSwift', '~> 2.6.0'
 
-  s.vendored_frameworks = 'MyFramework.xcframework'
+  s.vendored_frameworks = 'ResGuardIosSDK.xcframework'
 end
